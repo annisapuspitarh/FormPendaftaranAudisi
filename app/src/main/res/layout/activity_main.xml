@@ -34,35 +34,33 @@
         android:text="YGent AUDITION"
         android:textColor="#808080" />
 
-        <TextView
-            android:id="@+id/textView"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Name" />
+            android:layout_height="wrap_content">
 
         <EditText
             android:id="@+id/editTextName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
             android:hint="Name"
             android:inputType="textPersonName"
             android:textColorHint="@color/colorPrimaryDark" />
 
-        <TextView
-            android:id="@+id/textViewNationality"
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Nationality" />
+            android:layout_height="wrap_content">
 
         <EditText
             android:id="@+id/editTextNationality"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
             android:hint="Nationality"
             android:inputType="textPersonName"
             android:textColorHint="@color/colorPrimaryDark" />
+
+        </android.support.design.widget.TextInputLayout>
 
         <Button
             android:id="@+id/buttonSubmit"

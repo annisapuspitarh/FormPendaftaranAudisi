@@ -26,10 +26,40 @@ public class MainActivity extends AppCompatActivity {
         bSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String name = etName.getText().toString();
-                String nationality = etNationality.getText().toString();
-                tvResult.setText("Your name :" + name + "Nationality :" + nationality);
+                doProcess();
             }
         });
+    }
+
+    private void doProcess() {
+        if (isValid()) {
+            String name = etName.getText().toString();
+            String nationality = etNationality.getText().toString();
+            tvResult.setText("Your name : " + name + "\nNationality : " + nationality);
+        }
+    }
+
+    private boolean isValid() {
+        boolean valid = true;
+
+        String name = etName.getText().toString();
+        String nationality = etNationality.getText().toString();
+
+        if (name.isEmpty()) {
+            etName.setError("Please insert your name");
+            valid = false;
+        } else if (name.length() < 3) {
+            etName.setError("Please type your full name");
+            valid = false;
+        } else {
+            etName.setError(null);
+        }
+        if (nationality.isEmpty()) {
+            etNationality.setError("Please insert your Nationality");
+            valid = false;
+        } else {
+            etNationality.setError(null);
+        }
+        return valid;
     }
 }
