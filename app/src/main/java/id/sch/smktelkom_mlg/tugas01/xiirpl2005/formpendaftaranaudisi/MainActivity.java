@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             if (cbD.isChecked()) rslt += cbD.getText() + "\n";
             if (cbR.isChecked()) rslt += cbR.getText() + "\n";
             if (cbA.isChecked()) rslt += cbA.getText() + "\n";
-            if (rslt.length() == startlen) rslt += "Please select your ability";
+            if (rslt.length() == startlen) rslt += "Please select your ability\n";
 
             if (hsl == null) {
                 tvResult.setText("Please choose your gender");
