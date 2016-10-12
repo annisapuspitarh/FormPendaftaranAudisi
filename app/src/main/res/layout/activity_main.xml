@@ -62,11 +62,72 @@
 
         </android.support.design.widget.TextInputLayout>
 
-        <Button
-            android:id="@+id/buttonSubmit"
+        <TextView
+            android:id="@+id/textViewGender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="SUBMIT" />
+            android:text="Gender" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupAbility"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/radioButtonM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/radioButtonF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Female" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textViewAbility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ability" />
+
+
+        <CheckBox
+            android:id="@+id/checkBoxS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sing" />
+
+        <CheckBox
+            android:id="@+id/checkBoxD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dance" />
+
+        <CheckBox
+            android:id="@+id/checkBoxR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rap" />
+
+        <CheckBox
+            android:id="@+id/checkBoxA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acting" />
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgbtn"
+            android:text="SUBMIT"
+            android:textColor="@android:color/white" />
 
         <TextView
             android:id="@+id/textViewResult"
