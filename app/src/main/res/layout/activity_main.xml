@@ -120,6 +120,18 @@
             android:layout_height="wrap_content"
             android:text="Acting" />
 
+        <TextView
+            android:id="@+id/textViewRegion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Audition Place" />
+
+        <Spinner
+            android:id="@+id/spinnerRegion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/region" />
+
         <Button
             android:id="@+id/buttonSubmit"
             style="@style/Base.TextAppearance.AppCompat.Title"

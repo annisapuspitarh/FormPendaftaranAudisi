@@ -8,6 +8,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     EditText etNationality;
     //    RadioButton rbM, rbF;
     CheckBox cbS, cbD, cbR, cbA;
+    Spinner spRegion;
     Button bSubmit;
     TextView tvResult;
     RadioGroup rg;
@@ -32,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
         cbD = (CheckBox) findViewById(R.id.checkBoxD);
         cbR = (CheckBox) findViewById(R.id.checkBoxR);
         cbA = (CheckBox) findViewById(R.id.checkBoxA);
+
+        spRegion = (Spinner) findViewById(R.id.spinnerRegion);
+
 
         bSubmit = (Button) findViewById(R.id.buttonSubmit);
 
@@ -102,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
             if (hsl == null) {
                 tvResult.setText("Please choose your gender");
             } else
-                tvResult.setText("Your name : " + name + "\nNationality : " + nationality + "\nGender : " + hsl + rslt);
+                tvResult.setText("Your name : " + name + "\nNationality : " + nationality + "\nGender : " + hsl + rslt + "Audition Place : " + spRegion.getSelectedItem().toString());
         }
         }
 
