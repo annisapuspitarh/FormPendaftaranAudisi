@@ -18,7 +18,7 @@
   https://drive.google.com/open?id=0B-Sv5X8cmNzJaXd2UEhkYlFueEE
   
   **SCREENSHOOT**
-![ss1](https://cloud.githubusercontent.com/assets/22728350/19298415/99a65bd8-9077-11e6-9b7b-690f7a50bf94.PNG)
-![ss2 1](https://cloud.githubusercontent.com/assets/22728350/19298418/9d18d606-9077-11e6-99fc-4795186eab7c.PNG)
-![ss2 2](https://cloud.githubusercontent.com/assets/22728350/19298419/a078af74-9077-11e6-9fe0-6bdf6838e868.PNG)
-![ss3](https://cloud.githubusercontent.com/assets/22728350/19298422/a45ec056-9077-11e6-864d-d9f11218b73e.PNG)
+![yg1](https://cloud.githubusercontent.com/assets/22728350/20252945/65933dba-aa59-11e6-8a99-05824051ab0b.PNG)
+![yg2](https://cloud.githubusercontent.com/assets/22728350/20252946/6593909e-aa59-11e6-9392-857cafc8688a.PNG)
+![yg3](https://cloud.githubusercontent.com/assets/22728350/20252947/65bbf58e-aa59-11e6-817e-928fef939fcc.PNG)
+![yg4](https://cloud.githubusercontent.com/assets/22728350/20252948/65bc6014-aa59-11e6-9aa9-24be77c9b31b.PNG)
